@@ -51,17 +51,10 @@
       <description>&lt;p&gt;Out of all plucked instruments. The Pipa is the one that fascinates me the most. If I had to describe it with one word, I would say colorful due to its numerous finger techniques and sound possibilities.&lt;/p&gt;&#xA;&lt;p&gt;&amp;lsquo;Colorful? We cannot even hear colors&amp;rsquo; you may think. But if you heard the sounds that exist within this instrument, you would end up agreeing, or at least, understanding my point of view.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Home</title>
-      <link>http://localhost:1313/website/home/</link>
-      <pubDate>Mon, 10 Nov 2025 14:36:43 +0800</pubDate>
-      <guid>http://localhost:1313/website/home/</guid>
-      <description>&lt;p&gt;This is the home website!&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>About</title>
-      <link>http://localhost:1313/website/about/</link>
+      <link>http://localhost:1313/the-website/about/</link>
       <pubDate>Mon, 10 Nov 2025 14:34:54 +0800</pubDate>
-      <guid>http://localhost:1313/website/about/</guid>
+      <guid>http://localhost:1313/the-website/about/</guid>
       <description>&lt;p&gt;This is a page content. It uses &lt;strong&gt;Markdown&lt;/strong&gt; ??!?!?&lt;/p&gt;</description>
     </item>
   </channel>

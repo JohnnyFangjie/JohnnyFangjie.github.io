@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Personals on Anything Goes</title>
+    <title>Personal on Anything Goes</title>
     <link>http://localhost:1313/personal/</link>
-    <description>Recent content in Personals on Anything Goes</description>
+    <description>Recent content in Personal on Anything Goes</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 10 Nov 2025 15:02:01 +0800</lastBuildDate>
