@@ -1,0 +1,20 @@
+{{ define "main" }}
+    <article>
+    <div class="content">
+        {{ .Content }}
+    </div>
+
+    <h1> {{ .Title }} </h1>
+    <p>Anything related to history, music, tradition.</p>
+
+    <nav>
+        <ul>
+            {{ range where .Site.RegularPages "Section" "culture" }}
+            <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+            {{ end }}
+        </ul>
+    </nav>
+    
+    </article>
+
+{{ end }}

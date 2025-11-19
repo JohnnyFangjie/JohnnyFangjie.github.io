@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> | Anything Goes</title>
+</head>
+<body>
+    <header>
+        <h1><a href="http://localhost:1313/">Anything Goes</a></h1>
+        <nav>
+            
+        </nav>
+    </header>
+    
+    <main>
+        
+    <article>
+        <h2></h2>
+        <time datetime="0001-01-01 00:00:00 &#43;0000 UTC">January 1, 0001</time>
+        <div class="content">
+            <article>
+    <h1>Culture</h1>
+    <p>Anything related to history, music, tradition.</p>
+    <p>Includes but not limited to these definitions from <a target="_blank" href="https://dictionary.cambridge.org/dictionary/english-chinese-simplified/culture">Cambridge Dictionary</a>
+        <ul>
+            <li>the way of life, especially the general customs and beliefs, of a particular group of people at a particular time</li>
+            <li>music, art, theatre, literature, etc.</li>
+        </ul>
+    </p>
+    <nav>
+        <ul>
+            {{ range where .Site.RegularPages "Section" "culture" }}
+            <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+            {{ end }}
+        </ul>
+    </nav>
+</article>
+
+        </div>
+    </article>
+
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Anything Goes</p>
+    </footer>
+</body>
+</html>
